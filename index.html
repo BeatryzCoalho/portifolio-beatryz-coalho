@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Portifólio Beatryz Coalho</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="./img/logo-sigla.svg" alt="Logo das siglas do meu nome">
+        <nav class="cabecalho-menu" >
+            <a class="cabecalho-menu-item" href="#home" data-section="home">home</a>
+            <a class="cabecalho-menu-item" href="#sobre" data-section="sobre">sobre</a>
+            <a class="cabecalho-menu-item" href="#skills" data-section="skills">skills</a>
+            <a class="cabecalho-menu-item" href="#projetos" data-section="projetos">projetos</a>
+            <a class="cabecalho-menu-item" href="#contato" data-section="contato">contato</a>
+        </nav>
+        <div class="scroll-container">
+            <div class="dot" data-section="home"></div>
+            <div class="dot" data-section="sobre"></div>
+            <div class="dot" data-section="skills"></div>
+            <div class="dot" data-section="projetos"></div>
+        </div>
+        <div class="btn-abrir-menu" id="btn-menu">
+            <i class="bi bi-list"></i>
+        </div>
+        <div class="menu-mobile" id="menu-mobile">
+            <div class="btn-fechar" id="btn-menu-fecha">
+                <i class="bi bi-x-lg"></i>
+            </div>
+            <nav >
+                <a  href="#home" data-section="home">home</a>
+                <a  href="#sobre" data-section="sobre">sobre</a>
+                <a  href="#skills" data-section="skills">skills</a>
+                <a  href="#projetos" data-section="projetos">projetos</a>
+                <a  href="#contato" data-section="contato">contato</a>
+            </nav>
+        </div>
+        <div class="overlay-menu"></div>
+    </header>
+
+    <main class="conteudo">
+        <section class="conteudo-home" id="home" >
+            <div class="conteudo-home-junta">
+                <div class="conteudo-home-itens">
+                    <div class="conteudo-home-itens-infos">
+                        <img class="conteudo-home-itens-infos-imagem-perfil" src="./img/nome-completo.svg" alt="Imagem com o nome completo">
+                        <h2 class="conteudo-home-itens-infos-descricao" >Desenvolvedora FullStack com foco em FrontEnd.</h2>
+                        
+                    </div>
+                    <div class="conteudo-home-itens-imagem">
+                        <img class="contorno" src="./img/contorno-foto.svg" alt="Contorno da imagem pricipal">
+                        <img class="principal" src="./img/Foto-principal.svg" alt="Foto principal">
+                    </div>
+                </div>
+                <div class="conteudo-home-itens-infos-conjunto-botoes">
+                    <div class="conteudo-home-itens-infos-conjunto-curriculo-contato">
+                        <button class="conteudo-home-button-curriculo">Curriculo</button>
+                        <button class="conteudo-home-button-contato">Contato</button>
+                    </div>
+                    <div class="conteudo-home-itens-infos-conjunto-logos">
+                        <a href="https://github.com/BeatryzCoalho" target="_blank">
+                            <img class="conteudo-home-itens-infos-logos-git" src="./img/icone-git.svg" alt="ícone do GitHub">
+                        </a>
+                        <a href="https://www.linkedin.com/in/beatryz-coalho-b6bb051b4/" target="_blank">
+                            <img class="conteudo-home-itens-infos-logos-linkedin" src="./img/icone-linkedin.svg" alt="ícone do Linkedin">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="barraDeSeparacao"></div>
+        </section>
+        <section class="conteudo-sobre" id="sobre">
+            <div class="conteudo-sobre-itens">
+                <div class="conteudo-sobre-itens-infos">
+                    <img class="conteudo-sobre-itens-infos-titulo" src="./img/sobre.svg" alt="Titulo da sessão sobre">
+                    <div class="conteudo-sobre-itens-infos-separacao"></div>
+                    <h3 class="conteudo-sobre-itens-infos-descricao">
+                        Olá! Meu nome é <span class="nome">Beatryz Coalho</span>, eu sou desenvolvedora Full Stack na <span class="nomeEmpresa">Brave Asset</span>, onde participo da criação de um novo sistema para o mercado financeiro chamado <span class="nomeSistema">Floki</span>. Eu aprendi a programar com o desenvolvimento desse software e em cursos online, o que me ajudou a melhorar meu conhecimento e habilidades, certificando-me que aprendi o suficiente para experimentar novas tecnologias. Aqui estão algumas tecnologias que conheço:
+                    </h3>
+                    <div class="conteudo-sobre-itens-infos-linguagens">
+                        <div class="conteudo-sobre-itens-infos-linguagens-agrupadas">
+                            <div class="icone-linguagem">
+                                <img class="conteudo-sobre-itens-infos-seta" src="./img/icone-linguagens.svg" alt="Icone de seta">
+                                <h3 class="conteudo-sobre-itens-infos-text">HTML</h3>
+                            </div>
+                            <div class="icone-linguagem">
+                                <img class="conteudo-sobre-itens-infos-seta" src="./img/icone-linguagens.svg" alt="Icone de seta">
+                                <h3 class="conteudo-sobre-itens-infos-text">CSS</h3>
+                            </div>
+                            <div class="icone-linguagem">
+                                <img class="conteudo-sobre-itens-infos-seta" src="./img/icone-linguagens.svg" alt="Icone de seta">
+                                <h3 class="conteudo-sobre-itens-infos-text">JavaScript</h3>
+                            </div>
+                            <div class="icone-linguagem">
+                                <img class="conteudo-sobre-itens-infos-seta" src="./img/icone-linguagens.svg" alt="Icone de seta">
+                                <h3 class="conteudo-sobre-itens-infos-text">React Native</h3>
+                            </div>
+                            <div class="icone-linguagem">
+                                <img class="conteudo-sobre-itens-infos-seta" src="./img/icone-linguagens.svg" alt="Icone de seta">
+                                <h3 class="conteudo-sobre-itens-infos-text">Node.js</h3>
+                            </div>
+                        </div>
+                    
+                        <div class="conteudo-sobre-itens-infos-linguagens-agrupadas">
+                            <div class="icone-linguagem">
+                                <img class="conteudo-sobre-itens-infos-seta" src="./img/icone-linguagens.svg" alt="Icone de seta">
+                                <h3 class="conteudo-sobre-itens-infos-text">TypeScript</h3>
+                            </div>
+                            <div class="icone-linguagem">
+                                <img class="conteudo-sobre-itens-infos-seta" src="./img/icone-linguagens.svg" alt="Icone de seta">
+                                <h3 class="conteudo-sobre-itens-infos-text">Python</h3>
+                            </div>
+                            <div class="icone-linguagem">
+                                <img class="conteudo-sobre-itens-infos-seta" src="./img/icone-linguagens.svg" alt="Icone de seta">
+                                <h3 class="conteudo-sobre-itens-infos-text">Django</h3>
+                            </div>
+                            <div class="icone-linguagem">
+                                <img class="conteudo-sobre-itens-infos-seta" src="./img/icone-linguagens.svg" alt="Icone de seta">
+                                <h3 class="conteudo-sobre-itens-infos-text">GitHub</h3>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="conteudo-sobre-itens-imagem">
+                    <img class="principal-segundo" src="./img/ApresentacaoFloki.svg" alt="Foto apresentando o floki">
+                    <img class="contorno-segundo" src="./img/ContornoApresentacao.svg" alt="Contorno da foto principal da sessão">
+                </div>
+                
+            </div>
+            <div class="barraDeSeparacao"></div>
+        </section>
+        <section class="conteudo-skills" id="skills">
+            <div class="conteudo-skills-itens">
+                <div class="conteudo-sobre-itens-infos">
+                    <img class="conteudo-skills-itens-infos-titulo" src="./img/skills.svg" alt="Título da sessão skills">
+                    <div class="conteudo-sobre-itens-infos-separacao"></div>
+                    <h3 class="conteudo-skills-resumo">
+                        Desde que comecei minha jornada como desenvolvedora Full stack aprimorei minhas soft skills, sempre buscando ser uma melhor profissional.
+                    </h3>
+                </div>
+                <div class="conteudo-skills-containers-general">
+                    <div class="conteudo-skills-containers">
+                        <img class="conteudo-skills-containers-imagens" src="./img/azul.svg" alt="Traço azul da primeira soft skill">
+                        <h2 class="conteudo-skills-containers-titulo">aprendendo sem parar</h2>
+                        <p class="conteudo-skills-containers-subtitulo">A tecnogia sempre está em evolução, e por isso para quem trabalha com ela nunca para de aprender também.</p>
+                    </div>
+                    <div class="conteudo-skills-containers">
+                        <img class="conteudo-skills-containers-imagens" src="./img/rosinha.svg" alt="Traço rosa da segunda soft skill">
+                        <h2 class="conteudo-skills-containers-titulo">comunicação</h2>
+                        <p class="conteudo-skills-containers-subtitulo">Não importa sua profissão, comunicação é sempre uma necessidade em todos os setores.</p>
+                    </div>
+                    <div class="conteudo-skills-containers">
+                        <img class="conteudo-skills-containers-imagens" src="./img/amerelinho.svg" alt="Traço amarelo da terceira soft skill">
+                        <h2 class="conteudo-skills-containers-titulo">mente aberta</h2>
+                        <p class="conteudo-skills-containers-subtitulo">Quando você trabalha para cliente ou em equipe, você precisa estar disposto a ouvir e aceitar novas ideias e ser capaz de trabalhar com eles.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="barraDeSeparacao"></div>
+        </section>
+        <section class="conteudo-projetos" id="projetos">
+            <img class="conteudo-projetos-imagem" src="./img/projetos.svg" alt="Título da sessão projetos">
+            <div class="conteudo-projetos-itens-infos-separacao"></div>
+        </section>
+        <section class="conteudo-contato" id="contato">
+            
+        </section>
+    </main>
+
+    <footer>
+   
+    </footer>
+    <script src="./script/section.js"></script>
+    <script src="./script/scrollview.js"></script>
+    <script src="./script/curriculo.js"></script>
+    <script src="./script/menu.js"></script>
+</body>
+
+</html>
